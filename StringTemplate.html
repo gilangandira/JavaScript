@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const name = " Gilang Andira Pratama"
+        const template = `Name : ${name}`
+        document.writeln(template)
+
+        let nilai = 70
+        let lulus
+        if (nilai >= 70){
+            lulus = "Lulus"
+        }else{
+            lulus = "Tidak Lulus"
+        }
+        const template2 = `Nilai : ${lulus}` 
+        document.writeln(template2)
+
+        let multiLineString = `Nama Saya Gilang,
+Sekarang kerja, Sering juga ngegame`
+        
+        document.writeln("<pre>")
+        document.writeln(multiLineString)
+        document.writeln("<pre>")
+
+    </script>
+</body>
+</html>
