@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const person = {
+            firstName: "Gilang",
+            lastName: "Andy",
+        }
+
+        if ("firstName" in person) {
+            alert(`Hello ${person.firstName}`)
+        } else {
+            alert("Hello")
+        }
+
+        const student = {
+            firstName: "Gilang",
+            middleName: undefined,
+            lastName: "Andy",
+        }
+        if ("middleName" in person) {
+            alert(`Hello ${person.middleName}`)
+        } else {
+            alert("Hello")
+        }
+    </script>
+</body>
+
+</html>
