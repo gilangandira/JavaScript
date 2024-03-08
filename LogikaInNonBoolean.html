@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        ///OR || ngambil yang truth
+        document.writeln("Hello" || "")
+        document.writeln("" || [])
+        document.writeln(0 || "NOL")
+        document.writeln(null || "Null")
+        document.writeln("UNd" || undefined)
+        document.writeln(0 || false)
+
+
+        const person = {
+            firstName: "Gilang",
+            lastName: "Andy"
+        }
+
+        const name = person.firstName || person.lastName
+        document.writeln(name)
+
+        //And && ngambil yang false
+        document.writeln("Hello" && "")
+        document.writeln("" && [])
+        document.writeln(0 && "NOL")
+        document.writeln(null && "Null")
+        document.writeln("UNd" && undefined)
+        document.writeln(0 && false)
+
+    </script>
+</body>
+
+</html>
